@@ -1,10 +1,9 @@
-const cacheName = "pwa-v1";
+const cacheName = "iitb assignment";
 const assetsToCache = [
   "/",
   "/index.html",
   "/styles.css",
   "/script.js",
-  "/logo.png",
   "/logo.png",
 ];
 
