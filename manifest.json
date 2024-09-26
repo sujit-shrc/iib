@@ -4,7 +4,7 @@
   "description": "Assignment for IIT Bombay",
   "manifest_version": 2,
   "short_name": "IITB Assignment",
-  "start_url": "/iib/index.html",
+  "start_url": "index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#317EFB",

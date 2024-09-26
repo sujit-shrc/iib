@@ -1,10 +1,10 @@
 const cacheName = "iitb assignment";
 const assetsToCache = [
   "/",
-  "/index.html",
-  "/styles.css",
-  "/script.js",
-  "/logo.png",
+  "index.html",
+  "styles.css",
+  "script.js",
+  "logo.png",
 ];
 
 // Install event - caching app shell
