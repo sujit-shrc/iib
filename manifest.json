@@ -1,0 +1,23 @@
+{
+  "name": "IIT Bombay Assignment",
+  "version": "1.0.0",
+  "description": "Assignment for IIT Bombay",
+  "manifest_version": 2,
+  "short_name": "IITB Assignment",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#317EFB",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
