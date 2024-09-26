@@ -87,6 +87,8 @@ function selectRow(rowElement, rowId) {
 
 function openForm() {
   const form = document.querySelector("form");
+  const body = document.querySelector("body");
+  body.scrollIntoView();
   if (form.classList.contains("hidden")) {
     form.classList.remove("hidden");
     form.classList.add("add-row");
@@ -277,7 +279,7 @@ document.addEventListener("DOMContentLoaded", () => {
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
     navigator.serviceWorker
-      .register("/service-worker.js")
+      .register("/iib/service-worker.js")
       .then((registration) => {
         console.log("ServiceWorker registered with scope:", registration.scope);
       })
